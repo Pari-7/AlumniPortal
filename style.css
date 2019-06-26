@@ -1,0 +1,118 @@
+.page
+{
+width:1330px;
+height:1080;
+border-style:groove;
+}
+.headerpart
+{
+width:1330px;
+height:200px;
+border-style:groove;
+background-color: whitesmoke;
+background-image:url('logo.png');
+    background-repeat:no-repeat;
+}
+.btn{
+    display:inline-block;
+    height:40px;
+    width:150px;
+    line-height: 40px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background: tomato;
+    border-radius: 25px;
+    color:#fff;
+    text-transform: uppercase;
+    margin-top: 7px;
+    margin-left: 300px;
+    cursor:pointer;
+    text-decoration: none;
+    
+}
+.btn-text{
+display: :block;
+height: 100%;
+position:relative;
+top:0;
+-webkit-transition:top 0.6s;
+-moz-transition:top 0.6s;
+-ms-transition:top 0.6s;
+-o-transition:top 0.6s;
+transition: top 0.6s;
+width:100%;
+}
+.btn:hover .btn-text{
+top:-100%;
+}
+.linkspart
+{
+    width:1330px;
+    height:30px;
+    margin-top:5px;
+    background-color:rgb(12,100,198); 
+    border-style:groove;
+}
+.linkspart a
+{
+    color:rgb(245,246,251);
+    text-decoration:none;
+    
+}
+.linkspart a:hover
+{
+   background-color:rgb(245,246,251); 
+   color:rgb(12,100,198);
+}
+.bodypart
+{
+width:1330px;
+height:1080px;
+border-style:groove;
+ margin-top: 5px;   
+}
+.bodypart .imagepart
+{
+   width:1330px;
+height:250px; 
+    border-style:groove;
+    background-image: url('Graduates-1.jpg');
+}
+.bodypart .newspart
+{
+width:650px;
+height:820px;
+border-style:groove;
+float:right;
+    text-align: center;
+}  
+.bodypart .newspart .news
+{
+width:=520px;
+height:720px;
+border-style:groove; 
+    margin-left: 15px;
+      margin-right: 15px;
+    
+     color: blue;
+}
+.bodypart .newspart .news h4
+{
+    color: blue;
+    text-align: center;
+}
+.bodypart h3
+{ text-align: center;
+    color: blue;
+    padding-left: 20px;
+}
+.footerpart
+{
+width:1330px;
+height:25px;
+margin-top:0px;
+background-color:rgb(12,100,198);
+border-style:groove; 
+    text-align: center;
+}
